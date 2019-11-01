@@ -5,8 +5,8 @@ Miscellaneous scripts using the openGL library
 The flood-it game
 
 ### HSVblobs
-Several blobs move on the screen.
-The color of each pixel is a function of the distance with every blobs
+Several blobs move on the screen.  
+The color of each pixel is a function of the distance with every blobs.  
 Current functions:
  - pixels = 3000000 / square_distance;
  - pixels = 180 * (1 + cos(0.1 * distance));
@@ -14,14 +14,14 @@ Current functions:
  - pixels = 500 * sinh(0.00001 * square_distance);
 
 ### IslamicTiles
-A try to represent the islamic tiling. Use arrows to change shapes.
+A try to represent the islamic tiling. Use arrows to change shapes.  
 
 ### Lissajous Curve Table
-More information [here](https://en.wikipedia.org/wiki/Lissajous_curve).
+More information [here](https://en.wikipedia.org/wiki/Lissajous_curve).  
 
 ### MandelbroExplorer
 A simple Mandelbrot set explorer.  
-Limited to 'long double' (to try with gmp).
+Limited to 'long double' (to try with gmp).  
 
 ### MaurerRose
 More information [here](https://en.wikipedia.org/wiki/Maurer_rose).
