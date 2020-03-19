@@ -208,7 +208,7 @@ int main(int argc, char **argv) {
     glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE);
     glutInitWindowPosition(30, 30); // optional
     glutInitWindowSize(WIDTH, HEIGHT);
-    glutCreateWindow("Windows Loading Logo");
+    glutCreateWindow("Circle Morphing");
     glutDisplayFunc(display_callback);
     glutReshapeFunc(reshape_callback);
     glutTimerFunc(1000/FPS, timer_callback, 0);
