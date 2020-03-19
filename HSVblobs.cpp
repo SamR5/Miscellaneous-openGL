@@ -130,8 +130,8 @@ void update_pixels() {
         for (int j=0; j<WIDTH; j++) {
             for (int x=0; x<AMOUNT; x++) {
                 dist2 = square_distance(blobs[x].x, blobs[x].y, j, i);
-                //pixels[i][j] += 300000.0/dist2;
-                pixels[i][j] += 180*(1+std::cos(0.1*std::sqrt(dist2)));
+                pixels[i][j] += 3000000.0/dist2;
+                //pixels[i][j] += 180*(1+std::cos(0.1*std::sqrt(dist2)));
                 //pixels[i][j] += 1000*std::tanh(50000/dist2);
                 //pixels[i][j] += 500*std::sinh(0.00001*dist2);
             }
