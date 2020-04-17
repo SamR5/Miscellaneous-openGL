@@ -1,8 +1,16 @@
 # Miscellaneous-openGL
-Miscellaneous scripts using the openGL library
-  
+Miscellaneous scripts using the openGL library  
+
+### CircleMorphing
+A circle morphing into a triangle.  
+change the function update from 1 to 7 in timer_callback to see different patterns.  
+
+### DiffusionReaction
+A simulation of two chemicals reacting and diffusing;  
+More information [here](http://karlsims.com/rd.html).  
+
 ### FloodIt
-The flood-it game
+The flood-it game  
 
 ### HSVblobs
 Several blobs move on the screen.  
