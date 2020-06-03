@@ -16,6 +16,7 @@
 int ITERATIONS_MAX = 64; // for the precision
 
 int iteration_required(const long double& x, const long double& y);
+void update_color(float h, float colors[]);
 void draw_set();
 void init();
 
@@ -112,10 +113,6 @@ void init() {
     Xmax = Ymax = 2;
     deltaX = (Xmax - Xmin) / WIDTH;
     deltaY = (Ymax - Ymin) / HEIGHT;
-    // init colors
-    float r, g, b;
-    r = g = b = 0.0;
-    int index(0);
 }
 
 void display_callback() {

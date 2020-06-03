@@ -29,7 +29,8 @@ More information [here](https://en.wikipedia.org/wiki/Lissajous_curve).
 
 ### MandelbroExplorer
 A simple Mandelbrot set explorer.  
-Limited to 'long double' (to try with gmp).  
+Able to zoom 20 (around 4e-6) times with the long double version.  
+Able to zoom 45+ (around 1e-13)times with the GMP version (very slow).  
 
 ### MaurerRose
 More information [here](https://en.wikipedia.org/wiki/Maurer_rose).
